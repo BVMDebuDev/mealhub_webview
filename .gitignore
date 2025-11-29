@@ -1,0 +1,43 @@
+gitignore
+# ===============================================
+# Android Studio / IntelliJ project files
+# ===============================================
+*.iml
+.idea/workspace.xml
+.idea/libraries
+.idea/caches
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# ===============================================
+# Gradle files
+# ===============================================
+.gradle/
+build/
+# Allow the gradle wrapper jar to be committed
+!gradle/wrapper/gradle-wrapper.jar
+
+# ===============================================
+# Local configuration files
+#
+# IMPORTANT: These files contain machine-specific paths,
+# API keys, and other sensitive information.
+# NEVER commit them to version control.
+# ===============================================
+local.properties
+.DS_Store
+
+# ===============================================
+# Build artifacts and outputs
+# ===============================================
+captures/
+*.apk
+*.aab
+output.json
+
+# ===============================================
+# Native (C/C++) build files
+# ===============================================
+.cxx/
+.externalNativeBuild/
